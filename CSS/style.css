@@ -62,3 +62,44 @@ body{
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
       </svg>limited space access
 </div> */
+
+.card-body{
+   border-radius: 15px;
+  
+}
+#hot{
+    margin-left: -30px;
+}
+#plan-button{
+    height: 45px;
+    width: 207px;
+    left: 0px;
+    top: 0px;
+    border-radius: 24px;
+    background-color: #F496D1;
+   
+    color: #3F87F5 ;
+
+}
+#highlight-button{
+    height: 45px;
+    width: 232px;
+    left: 737px;
+    top: 1803px;
+    color: #3F87F5;
+    background: #FFFFFF;
+    border-radius: 24px;
+    border:none
+
+
+}
+
+@media only screen and (max-width:688px) {
+    #highlight{
+        width: 80%;
+    }
+   #hot{
+       margin-left: -100px;
+   }
+     
+}
