@@ -2,6 +2,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 
 /* custom-carousel */
@@ -112,5 +113,8 @@ body{
    #hot{
        margin-left: -100px;
    }
+   footer {
+   width: 100%;
+   overflow-x: hidden;
      
 }
