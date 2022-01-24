@@ -94,6 +94,17 @@ body{
 
 }
 
+#play-store{
+    Width:135px;
+    Height:40px;
+    margin-bottom: 5px;
+}
+#i-store{
+    Width:135px;
+    Height:40px;
+    margin-bottom: 10px;
+}
+
 @media only screen and (max-width:688px) {
     #highlight{
         width: 80%;
