@@ -5,64 +5,7 @@ body{
     overflow-x: hidden;
 }
 
-/* custom-carousel */
 
-/* .carousel-item{
-    height: 100vh;
-    min-height: 300px;
-}
-
-.carousel-item img{
-    background-color: rgba(0,0,0,0.5);
-    background-blend-mode: overlay;
-}
-.carousel-caption{
-    bottom: 220px;
-}
-.carousel-caption h5{
-    font-size: 60px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-top: 25px;
-    font-weight: 900;   
-}
-.carousel-caption p{
-    font-size: 18px;
-    margin: auto;
-    width: 60%;
-    line-height: 1.9;
-}
-.carousel-caption a{
-    text-transform: uppercase;
-    background: darkorange;
-    padding: 10px 30px;
-    display: inline-block;
-    color: #fff;
-    margin-top: 15px;
-    border-radius: 50px;
-
-} */
-
-
-
-/* <div class="icon d-flex flex-column justify-content-center d-inline-flex
-">
-    <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-      </svg>limited space access
-    <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-      </svg>limited space access
-    <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-      </svg>limited space access
-    <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-      </svg>limited space access
-    <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-      </svg>limited space access
-</div> */
 
 .card-body{
    border-radius: 15px;
@@ -77,16 +20,23 @@ body{
     left: 0px;
     top: 0px;
     border-radius: 24px;
-    background-color: #F496D1;
+    background-color: #fdcdeb;
+    font-weight: bold;
+    color:  #3F87F5;
    
-    color: #3F87F5 ;
-
+    
+}
+#highlight{
+    background: #3F87F5;
+    height: 480px;
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
 }
 #highlight-button{
     height: 45px;
     width: 232px;
     left: 737px;
     top: 1803px;
+    font-weight: bold;
     color: #3F87F5;
     background: #FFFFFF;
     border-radius: 24px;
@@ -112,6 +62,14 @@ body{
     background-repeat: no-repeat;
 }
 
+footer {
+    width: 100%;
+    overflow-x: hidden;
+    background-color:#0B0D17;
+    color: #D9DBE1;
+      
+ }
+
 @media only screen and (max-width:688px) {
     #highlight{
         width: 80%;
@@ -122,6 +80,17 @@ body{
    footer {
    width: 100%;
    overflow-x: hidden;
+   background-color:#0B0D17;
+   color: #D9DBE1;
      
 }
 }
+
+@media only screen and (max-width:580px) {
+   
+       .carousel-inner img{
+           height: 400px;
+       }
+    }
+    
+    
