@@ -106,6 +106,12 @@ body{
     margin-bottom: 10px;
 }
 
+#contact-form{
+    background-image: url(../images/contact.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 @media only screen and (max-width:688px) {
     #highlight{
         width: 80%;
